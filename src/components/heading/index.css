@@ -1,0 +1,25 @@
+.heaidng {
+    padding: 3rem 0px;
+    text-align: center;
+    position: relative;
+}
+
+.heaidng::before {
+    content: '';
+    width: 36%;
+    background: #cdcdcd;
+    height: 2px;
+    position: absolute;
+    left: 28px;
+    top: 50%;
+}
+
+.heaidng::after {
+    content: '';
+    width: 36%;
+    background: #cdcdcd;
+    height: 2px;
+    position: absolute;
+    right: 28px;
+    top: 50%;
+}

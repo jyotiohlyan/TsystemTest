@@ -1,0 +1,31 @@
+.MainRow {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background: #000;
+    padding: 5rem 0px;
+    color: #fff;
+}
+
+.MainRow .col3 {
+    -ms-flex: 0 0 25%;
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+    position: relative;
+    color: #fff;
+}
+
+.paymentSection {
+    padding: 2rem 2rem 0px 2rem;
+}
+
+.paymentSection .footerimage {
+    margin-bottom: 25px;
+}
+
+.paymentSection p {
+    color: #cdcdcd;
+    line-height: 24px;
+    font-size: 14px;
+}
